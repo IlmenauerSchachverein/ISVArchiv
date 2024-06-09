@@ -1,8 +1,7 @@
 ---
 bookCollapseSection: true
 bookToc: false
-weight: 3
 ---
-# Vereinsmeisterschaft 2023
+# Paarungen Rock Meets Chess 2024
 
 asdasd

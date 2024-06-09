@@ -3,6 +3,6 @@ bookCollapseSection: true
 bookToc: false
 weight: 3
 ---
-# Vereinsmeisterschaft 2023
+# ThSSEM2024
 
 asdasd

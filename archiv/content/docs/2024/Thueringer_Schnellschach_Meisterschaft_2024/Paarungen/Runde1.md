@@ -5,7 +5,7 @@ title: "Runde1"
 bookToc: false
 ---
 
-# Rock Meets Chess 2024
+# Thueringer Schnellschach Meisterschaft 2024
 
 ## Paarungsliste der 1. Runde
 

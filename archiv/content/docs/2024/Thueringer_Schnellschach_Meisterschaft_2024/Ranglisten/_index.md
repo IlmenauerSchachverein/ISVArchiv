@@ -1,8 +1,8 @@
 ---
 bookCollapseSection: true
 bookToc: false
-weight: 3
+weight: 2
 ---
-# Vereinsmeisterschaft 2023
+# Ranglisten Vereinsmeisterschaft 2023
 
 asdasd
