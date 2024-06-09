@@ -1,8 +1,8 @@
 baseURL = "http://archiv.ilmenauer-schachverein.de"
 languageCode = "de"
 defaultContentLanguage = "de"
-defaultContentLanguageInSubdir = true
-
+defaultContentLanguageInSubdir = false
+title = "ISV - Archiv"
 theme = "hugo-book"
 
 [languages]
@@ -23,3 +23,4 @@ theme = "hugo-book"
     noClasses = false
     style = "manni"
     tabWidth = 4
+ 
