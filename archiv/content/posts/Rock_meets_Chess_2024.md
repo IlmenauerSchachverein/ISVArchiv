@@ -1,0 +1,33 @@
+---
+author: "Erik Skopp"
+date: 2024-06-09
+linktitle: Rock meets Chess 2024
+menu:
+  main:
+    parent: xyz
+next: /xyz/github-pages-blog
+prev: /xyz/automated-deployments
+title: Rock meets Chess 2024
+weight: 10
+---
+
+**Bericht über das Rock meets Chess Turnier 2024 aus Bad Neustadt.**
+
+## Wichtig
+Da ich derzeit nur wenig Zeit habe, fällt der Bericht sehr kurz und prägnant aus.
+
+## Tabellen und Bilder
+Alle Tabellen und Bilder sind in der Cloud des Ilmenauer Schachvereines unter: [https://cloud.ilmenauer-schachverein.de/apps/files/files?dir=/Events/2024_05_Rock_meets_Chess](https://cloud.ilmenauer-schachverein.de/apps/files/files?dir=/Events/2024_05_Rock_meets_Chess)
+
+Es wäre schön, wenn ein Gruppenbild und die Partie von Pascal veröffentlicht werden könnten. 
+
+## Bericht
+Am Pfingstsamstag, dem 18. Mai 2024, fand die zwölfte Ausgabe des Kultschachturniers "Rock meets Chess" im Schützenhaus der Burgschützen in Bad Neustadt / Herschfeld statt. Das Turnier zog zahlreiche Schachbegeisterte an, die einen neuen Teilnehmerrekord aufstellen wollten. Die Veranstaltung begann um 21:00 Uhr und endete am folgenden Morgen gegen 08:00 Uhr. Mit rockigen Klängen und einer beeindruckenden Light-Show von DJ Max wurde für eine einzigartige Atmosphäre gesorgt. Unter der Leitung von Wolfgang Max Schmitt, Niklas Orf und Timo Helm kämpften die Teilnehmer in elf Runden Schnellschach um den Sieg. Während der Nacht wurden kostenlose Häppchen und Kaffee angeboten, und nach der Siegerehrung gab es ein gemeinsames Frühstücksbuffet für alle Teilnehmer. "Rock meets Chess" 2024 erwies sich erneut als ein Highlight im Kalender der Schachgemeinschaft und bot eine perfekte Mischung aus spannendem Schachsport und rockiger Unterhaltung.
+
+Das Turnier "Rock meets Chess 2024" begann mit einer beeindruckenden Startrangliste, die die Vielfalt und Stärke der insgesamt 48 Teilnehmer widerspiegelte. Besonders hervorzuheben ist, dass die ersten zehn Spieler eine ELO über 1960 hatten, was das Turnier besonders stark besetzt machte. Aus Ilmenau kam der Neuzugang Pascal Eichenauer, der mit einem Rating von 1992 auf Platz 7 gesetzt war. Er beeindruckte durch seine strategischen Fähigkeiten und ruhigen Spielstil. Allerdings hatte Pascal einen katastrophalen Start und verlor die ersten beiden Runden. Doch mit einem Sieg in der letzten Runde gegen die Physikerin Dr. Anita Just konnte er seine 7,5 Punkte sichern und erreichte damit den 6. Platz. Zwar konnte er sich um einen Platz verbessern, spielte aber leicht unter seinem Niveau. Dennoch kann Pascal mit seinem Ergebnis zufrieden sein.
+
+Auch der Ilmenauer Jugendwart Georg Lehmann war mit einer DWZ von 1626 auf Platz 26 vertreten. In der dritten Runde errang Georg am Brett 8 einen beeindruckenden Sieg gegen einen Gegner mit einer DWZ von 1863. Beide Spieler gerieten in Zeitnot und lieferten sich einen packenden Wettkampf, den Georg am Ende für sich entscheiden konnte. Insgesamt erreichte Georg sechs Punkte und belegte damit den 21. Platz, was bedeutete, dass er leicht über seiner Leistung spielte. Auch Georg kann mit seinem Ergebnis zufrieden sein. Georg und Peter Lehmann, beide für den ESV Lok Meiningen spielend, zeigten durch ihre konsequente und taktisch versierte Spielweise ihr hohes Niveau. Die Startrangliste setzte damit hohe Erwartungen für die elf Runden Schnellschach, in denen spannende und intensive Partien garantiert waren.
+
+Das Turnier "Rock meets Chess 2024" bot somit nicht nur packende Schachpartien, sondern auch ein einzigartiges Ambiente mit rockiger Musik und einer beeindruckenden Light-Show. Die Teilnehmer, egal ob alte Hasen oder Neulinge, konnten ihre Fähigkeiten unter Beweis stellen und spannende Duelle austragen. Mit guter Organisation und einer gelungenen Mischung aus Sport und Unterhaltung bleibt "Rock meets Chess" ein fester und beliebter Bestandteil im Kalender der Schachgemeinschaft. Alle freuen sich bereits auf die nächste Ausgabe dieses außergewöhnlichen Events.
+
+Erik Skopp
