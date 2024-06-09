@@ -28,7 +28,7 @@ jobs:
 
       - name: Build Hugo Site
         run: |
-          cd diary
+          cd archiv
           hugo
 
       - name: Clean Server Directory
