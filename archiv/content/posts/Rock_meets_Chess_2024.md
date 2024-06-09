@@ -2,20 +2,12 @@
 author: "Erik Skopp"
 date: 2024-05-19
 linktitle: Rock meets Chess 2024
-menu:
-  main:
-    parent: xyz
-next: /xyz/github-pages-blog
-prev: /xyz/THJEM_2024
 title: RmC_2024
-weight: 10
+weight: 0
 categories: ["2024", "Turnier", "Schach", "Mai"]
 tags: ["Bad Neustadt", "Spaß", "Ilmenauer SV"]
 ---
 
-
-## Wichtig
-Da ich derzeit nur wenig Zeit habe, fällt der Bericht sehr kurz und prägnant aus.
 
 ## Tabellen und Bilder
 Alle Tabellen und Bilder sind in der Cloud des Ilmenauer Schachvereines unter: [https://cloud.ilmenauer-schachverein.de/apps/files/files?dir=/Events/2024_05_Rock_meets_Chess](https://cloud.ilmenauer-schachverein.de/apps/files/files?dir=/Events/2024_05_Rock_meets_Chess)

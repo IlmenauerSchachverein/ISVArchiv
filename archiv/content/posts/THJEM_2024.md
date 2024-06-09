@@ -2,13 +2,8 @@
 author: "Erik Skopp"
 date: 2024-04-07
 linktitle: Thüringer Einzelmeisterschaft Jugend 2024 
-menu:
-  main:
-    parent: xyz
-next: /xyz/RmC_2024
-prev: /xyz/RasdmC_2024
 title: THJEM_2024
-weight: 10
+weight: 9
 categories: ["2024", "Turnier", "Schach", "Mai"]
 tags: ["Bad Neustadt", "Spaß", "Ilmenauer SV"]
 ---
