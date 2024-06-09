@@ -5,6 +5,11 @@ defaultContentLanguageInSubdir = true
 
 theme = "hugo-book"
 
+[languages]
+  [languages.en]
+    languageName = "Deutsch"
+    weight = 1
+
 [languages.en.params]
 pygmentsCodeFences = true
 pygmentsOptions = "linenos=table"
