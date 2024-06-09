@@ -23,4 +23,15 @@ theme = "hugo-book"
     noClasses = false
     style = "manni"
     tabWidth = 4
- 
+
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/alex-shpak/hugo-book"
+  weight = 10
+
+[[menu.after]]
+  name = "Hugo Themes"
+  url = "https://themes.gohugo.io/themes/hugo-book/"
+  weight = 20
