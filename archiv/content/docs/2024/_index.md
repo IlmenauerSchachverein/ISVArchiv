@@ -1,7 +1,6 @@
 ---
-bookCollapseSection: true
-bookToc: false
+weight: 1
+bookFlatSection: true
+title: "2024"
 ---
-# Rock Meets Chess 2024
-
-asdasd
+# 2024
