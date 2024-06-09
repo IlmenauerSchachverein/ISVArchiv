@@ -1,8 +1,7 @@
 ---
 bookCollapseSection: true
 bookToc: false
-weight: 2
 ---
-# Ranglisten Vereinsmeisterschaft 2023
+# Paarungen Rock Meets Chess 2024
 
 asdasd

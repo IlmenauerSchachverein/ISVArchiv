@@ -5,9 +5,9 @@ title: "Rangliste Runde 1"
 bookToc: false
 ---
 
-# Vereinsmeisterschaft Ilmenauer SV 2023
+### Vereinsmeisterschaft Ilmenauer SV 2023
 
-## Rangliste der 1. Runde
+#### Rangliste der 1. Runde
 
 | Rang | Teilnehmer       | Tit | TWZ  | G | S | R | V | Punkte | Buchh | SoBerq |
 |------|------------------|-----|------|---|---|---|---|--------|-------|--------|

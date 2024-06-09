@@ -5,9 +5,9 @@ title: "Runde2"
 bookToc: false
 ---
 
-# Vereinsmeisterschaft Ilmenauer SV 2023
+### Rock Meets Chess 2024
 
-## Paarungsliste der 2. Runde
+#### Paarungsliste der 2. Runde
 
 | Paar | Nr. | Teilnehmer         | Pkt. |   | Nr. | Teilnehmer        | Pkt. | W   | S    | At. | M |
 |------|-----|--------------------|------|---|-----|-------------------|------|-----|------|-----|---|

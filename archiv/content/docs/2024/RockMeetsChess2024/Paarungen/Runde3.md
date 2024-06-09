@@ -5,6 +5,6 @@ title: "Runde3"
 bookToc: false
 ---
 
-# Vereinsmeisterschaft Ilmenauer SV 2023
+# Rock Meets Chess 2024
 
-## Paarungsliste der 3. Runde
+#### Paarungsliste der 3. Runde
