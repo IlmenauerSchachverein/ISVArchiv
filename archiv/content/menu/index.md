@@ -2,14 +2,12 @@
 headless: true
 ---
 
+- [**2023**]({{< relref "/docs/2023" >}})
+  - [Vereinsmeisterschaft 2023]({{< relref "/docs/2023/vm23" >}})
+    - [Paarungen]({{< relref "/docs/2023/vm23/Paarungen" >}})
+      - [Runde1]({{< relref "/docs/2023/vm23/Paarungen/vm23paarungrunde1" >}})
+      - [Runde2]({{< relref "/docs/2023/vm23/Paarungen/vm23paarungrunde2" >}})
 
-- [**Example Site**]({{< relref "/docs/example" >}})
-- [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
-  - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
-  - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})
-- [Collapsed]({{< relref "/docs/example/collapsed" >}})
-  - [3rd]({{< relref "/docs/example/collapsed/3rd-level" >}})
-    - [4th]({{< relref "/docs/example/collapsed/3rd-level/4th-level" >}})
 <br />
 
-- [**Example Site**]({{< relref "/docs/2024" >}})
+- [**2024**]({{< relref "/docs/2024" >}})
