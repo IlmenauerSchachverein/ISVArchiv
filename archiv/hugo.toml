@@ -1,18 +1,9 @@
-baseURL = "http://diary.erik-skopp.de"
+baseURL = "http://archiv.ilmenauer-schachverein.de"
 languageCode = "de"
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = true
 
 theme = "hugo-book"
-
-[languages]
-  [languages.en]
-    languageName = "Deutsch"
-    weight = 1
-
-  [languages.de]
-    languageName = "English"
-    weight = 2
 
 [languages.en.params]
 pygmentsCodeFences = true
