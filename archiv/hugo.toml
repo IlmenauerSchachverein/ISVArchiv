@@ -1,4 +1,4 @@
-baseURL = "http://archiv.ilmenauer-schachverein.de"
+baseURL = "http://archiv.ilmennauer-schachverein.de"
 languageCode = "de"
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = true
@@ -9,6 +9,10 @@ theme = "hugo-book"
   [languages.en]
     languageName = "Deutsch"
     weight = 1
+
+  [languages.de]
+    languageName = "English"
+    weight = 2
 
 [languages.en.params]
 pygmentsCodeFences = true
