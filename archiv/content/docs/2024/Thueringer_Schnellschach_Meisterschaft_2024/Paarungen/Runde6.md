@@ -1,7 +1,7 @@
 ---
 weight: 6
 bookFlatSection: true
-title: "Runde6"
+title: "Paarung Runde 6"
 bookToc: false
 ---
 

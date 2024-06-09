@@ -7,7 +7,8 @@ bookToc: false
 
 # Thueringer Schnellschach Meisterschaft 2024
 
-## Startrangliste| TlnNr | Teilnehmer             | Titel | ELO  | NWZ  | Attr. | Verein/Ort                     | Land | Geburt | FideKenn. | PKZ     |
+## Startrangliste
+| TlnNr | Teilnehmer             | Titel | ELO  | NWZ  | Attr. | Verein/Ort                     | Land | Geburt | FideKenn. | PKZ     |
 |-------|------------------------|-------|------|------|-------|--------------------------------|------|--------|-----------|---------|
 | 1     | Langheinrich, Ferenc   | IM    | 2341 | 2332 | M     | SV Empor Erfurt                | GER  | 1983   | 4641973   | 10124364|
 | 2     | Tschernatsch, Johannes | FM    | 2341 | 2362 | M     | SC Empor Potsdam 1952 e.V.     | GER  | 2003   | 16223977  | 10405091|
@@ -46,6 +47,41 @@ bookToc: false
 | 35    | Skopp, Erik            |       | 1701 |      | M     |                                | GER  | 1998   | 16201914  |         |
 | 36    | Kellner, Rene          |       | 1686 | 1581 | M     | Potsdamer SV Mitte e.V.        | GER  | 1978   | 4656008   | 10102146|
 | 37    | Berbig, Georg          |       | 1642 | 1463 | M     | SSV Vimaria 91 Weimar          | GER  | 2010   | 34640401  | 10702455|
-| 38    | Grube, Paul           
-
-as
+| 38    | Grube, Paul            |       | 1637 | 1584 | M     | ESV Lok Meiningen              | GER  | 2007   | 16224833  | 10436071|
+| 39    | Stadelmann, Constantin |       | 1623 | 1481 | M     | SSV Vimaria 91 Weimar          | GER  | 2008   | 16297970  | 10653535|
+| 40    | Bock, Leonas           |       | 1603 | 1633 | M     | SSV Vimaria 91 Weimar          | GER  | 2010   | 16287118  | 10653537|
+| 41    | Görlach, Hanna         |       | 1578 | 1210 | W     | Ilmenauer SV                   | GER  | 2006   | 34675604  | 10837663|
+| 42    | Möller, Axel           |       |      | 1988 | M     | SV Ammern                      | GER  | 1963   | 24619345  | 10145156|
+| 43    | Neef, Michael          |       |      | 1779 | M     | SV Wartburgstadt Eisenach      | GER  | 1959   |           | 10151657|
+| 44    | Lesser, Thomas         |       |      | 1773 | M     | SV Schmalkalden 04             | GER  | 1975   |           | 10127910|
+| 45    | Cetnik, Vuk            |       |      | 1746 | M     | TSV 1883 Benshausen            | GER  | 1998   |           | 10807183|
+| 46    | Anschütz, Bernd        |       |      | 1678 | M     | SV Wartburgstadt Eisenach      | GER  | 1945   |           | 10003503|
+| 47    | Han, Erdem             |       |      | 1672 | M     | SSV Vimaria 91 Weimar          | GER  | 2011   | 533000646 | 10842711|
+| 48    | Hoffmann, Karsten      |       |      | 1634 | M     | SC Rochade Steinbach-Hallenberg| GER  | 1974   | 34633138  | 10086860|
+| 49    | Endter, Marcel         |       |      | 1596 | M     | SV Schmalkalden 04             | GER  | 2000   | 34693980  | 10827525|
+| 50    | Stepper, Matthias      |       |      | 1586 | M     | VfB 1919 Vacha                 | GER  | 1963   |           | 10215446|
+| 51    | Recknagel, Armin       |       |      | 1573 | M     | SC Rochade Steinbach-Hallenberg| GER  | 2008   | 533001294 | 10663729|
+| 52    | Laut, Martin           |       |      | 1539 | M     | VfB 1919 Vacha                 | GER  | 1964   |           | 10760059|
+| 53    | Marschall, Andreas     |       |      | 1536 | M     | VfB 1919 Vacha                 | GER  | 1964   |           | 10136978|
+| 54    | Niedermeyer, Max       |       |      | 1462 | M     | TSV 1883 Benshausen            | GER  | 2008   |           | 10807181|
+| 55    | Yuldashev, Sherbek     |       |      | 1457 | M     | SC Rochade Steinbach-Hallenberg| GER  | 2003   |           | 10814051|
+| 56    | Piske, Justus          |       |      | 1408 | *     | SC Suhl                        | GER  | 2006   |           | 10850385|
+| 57    | Bock, Hans-Juergen     |       |      | 1376 | M     | VfB 1919 Vacha                 | GER  | 1955   | 16285999  | 10018633|
+| 58    | Katzmann, Kimi         | +     |      | 1294 | M     | SK Theaterstadt Meiningen      | GER  | 2010   | 533003378 | 10833057|
+| 59    | Medda, Daniel          |       |      | 1226 | M     | VfB 1919 Vacha                 | GER  | 1978   |           | 10817155|
+| 60    | Lotz, Bruno            |       |      | 1165 | M     | SV Wartburgstadt Eisenach      | GER  | 2010   | 34681299  | 10787885|
+| 61    | Ciechoradzki, Rainer   |       |      | 1126 | M     | SV Wartburgstadt Eisenach      | GER  | 1965   |           | 10839681|
+| 62    | Carrié, René           |       |      | 1060 | M     | ESV Lok Meiningen              | GER  | 1990   | 34689672  | 10848335|
+| 63    | Winger, Frank          |       |      | 838  | M     | Ilmenauer SV                   | GER  | 1964   | 16233069  | 10651767|
+| 64    | Albrecht, Edwin        |       |      |      | M     | SK Theaterstadt Meiningen      | GER  | 2010   | 533003386 | 10859419|
+| 65    | Bauroth, Raphael       |       |      |      | M     | SC Rochade Steinbach-Hallenberg| GER  | 2008   | 533001243 | 10856671|
+| 66    | Busch, Leon            |       |      |      | M     | SV Wartburgstadt Eisenach      | GER  | 2007   |           | 10856845|
+| 67    | Fräbel, Andy           |       |      |      | M     |                                | GER  | 1978   |           |         |
+| 68    | Fräbel, Miro           |       |      |      | M     |                                | GER  | 2007   |           |         |
+| 69    | Friedrich, Bernd       |       |      |      | M     | Benshausen                     | GER  | 1958   |           | 10054538|
+| 70    | Häfner, Tim            |       |      |      | M     | SC Rochade Steinbach-Hallenberg| GER  | 1999   |           | 10856673|
+| 71    | Lehmann, Wolf          |       |      |      | M     | Meiningen                      | GER  | 2006   |           |         |
+| 72    | Müller, Jens           |       |      |      | M     | ESV Lok Meiningen              | GER  | 1969   | 34692878  | 10856143|
+| 73    | Peter, Ansgar          |       |      |      | M     | Trusetal                       | GER  | 2007   |           |         |
+| 74    | Scheidig, Thorben      |       |      |      | M     | Ilmenau                        | GER  | 2007   |           |         |
+| 75    | Voigt, Alexander       |       |      |      |       | Dreißigacker                   | GER  | 1986   |           |         |
