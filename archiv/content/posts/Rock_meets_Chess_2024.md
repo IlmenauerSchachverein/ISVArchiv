@@ -9,9 +9,10 @@ next: /xyz/github-pages-blog
 prev: /xyz/automated-deployments
 title: Rock meets Chess 2024
 weight: 10
+categories: ["2024", "Turnier", "Schach"]
+tags: ["Bad Neustadt", "Spaß", "Ilmenauer SV"]
 ---
 
-**Bericht über das Rock meets Chess Turnier 2024 aus Bad Neustadt.**
 
 ## Wichtig
 Da ich derzeit nur wenig Zeit habe, fällt der Bericht sehr kurz und prägnant aus.
