@@ -31,6 +31,12 @@ jobs:
           cd archiv
           hugo
 
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: public-archive
+          path: archiv/public
+
       - name: Clean Server Directory
         env:
           SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
@@ -42,6 +48,10 @@ jobs:
           SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
           SSH_SERVER: ${{ secrets.SSH_SERVER }}
         run: |
-            ls -aril
-            pwd
-            sshpass -p "$SSH_PASSWORD" scp -o StrictHostKeyChecking=no -r archiv/public/* root@$SSH_SERVER:/var/www/ilmenauerschachverein/ilmenauer-schachverein-archiv
+          sshpass -p "$SSH_PASSWORD" scp -o StrictHostKeyChecking=no -r archiv/public/* root@$SSH_SERVER:/var/www/ilmenauerschachverein/ilmenauer-schachverein-archiv
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./archiv/public
