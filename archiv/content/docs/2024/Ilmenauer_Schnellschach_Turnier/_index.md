@@ -56,16 +56,3 @@ Das Turnier wird weder nach ELO noch nach DWZ ausgewertet.
 
 ## Anmeldung
 Formular für die Anmeldung: [Anmeldung](https://forms.gle/ZLjpR8TB2WYDJSvK9)
-
-## Menü
-- [Anmeldung](https://forms.gle/ZLjpR8TB2WYDJSvK9)
-- [Startrangliste](./Startrangliste.html)
-- [Ausschreibung](./Ausschreibung.html)
-- Runden
-  - [Runde 1](./Runde1.html)
-  - [Runde 2](./Runde2.html)
-  - [Runde 3](./Runde3.html)
-  - [Runde 4](./Runde4.html)
-  - [Runde 5](./Runde5.html)
-  - [Runde 6](./Runde6.html)
-  - [Runde 7](./Runde7.html)
