@@ -17,3 +17,4 @@ bookToc: false
 | Ausschreibung             | [http://www.plehmann.de/esv/stadtmeisterschaft/ausschreibung.html](http://www.plehmann.de/esv/stadtmeisterschaft/ausschreibung.html) | 2024-06-10  | 07:14   | Ausschreibung des Turnieres                |
 | Lichess Partien           | [https://lichess.org/study/NnXTI7mf](https://lichess.org/study/NnXTI7mf)  | 2024-06-10  | 07:14   | Lichess Partien von Erik Skopp             |
 | Lichess Ilmenau           | [https://lichess.org/study/O6YEnQ4v](https://lichess.org/study/O6YEnQ4v)  | 2024-06-10  | 07:14   | Lichess Partien des Ilmenauer Schachvereins |
+| (intern) Ilmenauer SV Cloud        | [https://cloud.ilmenauer-schachverein.de/apps/files/files/110288?dir=/Events/2024_06_Meiningen_Schnellschach](https://cloud.ilmenauer-schachverein.de/apps/files/files/110288?dir=/Events/2024_06_Meiningen_Schnellschach)  | 2024-06-10  | 07:14   | Interner Link zur Ilmenauer SV Cloud zum entsprechenden Turnier |
