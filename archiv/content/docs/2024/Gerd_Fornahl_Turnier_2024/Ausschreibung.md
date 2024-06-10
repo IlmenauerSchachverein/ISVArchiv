@@ -1,5 +1,5 @@
 ---
-bookCollapseSection: true
+bookCollapseSection: false
 bookToc: false
 weight: 0
 title: Ausschreibung

@@ -1,8 +1,9 @@
 ---
 bookCollapseSection: true
 bookToc: false
-weight: 3
+weight: 0
+title: Rock meets Chess 2024
 ---
-# Vereinsmeisterschaft 2023
+# Rock Meets Chess 2024
 
 asdasd
