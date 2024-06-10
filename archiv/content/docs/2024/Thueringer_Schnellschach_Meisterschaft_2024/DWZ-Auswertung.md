@@ -9,10 +9,6 @@ bookToc: false
 
 ## DWZ - Auswertung
 
-# Meininger Stadtmeisterschaft 2024
-## Thüringer Schnellschacheinzelmeisterschaft 2024
-
-### Inoffizielle Turnierauswertung nach DWZ
 
 | Nr.  | Teilnehmer            | Tit. | Att. | Ro   | Niv  | W   | We  | n  | E  | /  | J  | Rh   | X  | Rn   | Diff. |
 |------|-----------------------|------|------|------|------|-----|-----|----|----|----|----|------|----|------|-------|
