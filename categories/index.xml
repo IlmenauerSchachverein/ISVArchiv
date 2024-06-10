@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on ISV - Archiv</title>
+    <link>http://archiv.ilmenauer-schachverein.de/categories/</link>
+    <description>Recent content in Categories on ISV - Archiv</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://archiv.ilmenauer-schachverein.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024</title>
+      <link>http://archiv.ilmenauer-schachverein.de/categories/2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://archiv.ilmenauer-schachverein.de/categories/2024/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mai</title>
+      <link>http://archiv.ilmenauer-schachverein.de/categories/mai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://archiv.ilmenauer-schachverein.de/categories/mai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schach</title>
+      <link>http://archiv.ilmenauer-schachverein.de/categories/schach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://archiv.ilmenauer-schachverein.de/categories/schach/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Turnier</title>
+      <link>http://archiv.ilmenauer-schachverein.de/categories/turnier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://archiv.ilmenauer-schachverein.de/categories/turnier/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

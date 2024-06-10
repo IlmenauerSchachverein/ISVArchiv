@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023 on ISV - Archiv</title>
+    <link>http://archiv.ilmenauer-schachverein.de/docs/2023/</link>
+    <description>Recent content in 2023 on ISV - Archiv</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <atom:link href="http://archiv.ilmenauer-schachverein.de/docs/2023/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
