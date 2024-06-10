@@ -3,7 +3,7 @@ author: "Erik Skopp"
 date: 2024-05-19
 linktitle: Rock meets Chess 2024
 title: RmC_2024
-weight: 0
+weight: 1000
 categories: ["2024", "Turnier", "Schach", "Mai"]
 tags: ["Bad Neustadt", "Spaß", "Ilmenauer SV"]
 ---
