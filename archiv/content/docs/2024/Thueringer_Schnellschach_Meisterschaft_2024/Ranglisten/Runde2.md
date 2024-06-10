@@ -8,3 +8,4 @@ bookToc: false
 ### Thueringer Schnellschach Meisterschaft 2024
 
 #### Rangliste der 2. Runde
+
