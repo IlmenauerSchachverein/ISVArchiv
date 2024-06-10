@@ -6,14 +6,6 @@ title: Gerd Fornahl Turnier 2024
 ---
 
 ![Turnier+abgeschlossen](https://via.placeholder.com/1500x100/00FF00/FFFFFF?text=Turnier+erfolgreich+abgeschlossen)
----
-bookCollapseSection: true
-bookToc: false
-weight: 0
-title: Gerd Fornahl Turnier 2024
----
-
-![Turnier+abgeschlossen](https://via.placeholder.com/1500x100/00FF00/FFFFFF?text=Turnier+erfolgreich+abgeschlossen)
 
 # 8. Gerd Fornahl Gedenkturnier
 ## Ilmenauer Schachverein
