@@ -2,7 +2,7 @@
 bookCollapseSection: true
 bookToc: false
 weight: 0
-title: Thueringer Schnellschach Meisterschaft 2024
+title: Thueringer Schnellschach Meisterschaft
 ---
 ![Turnier+abgeschlossen](https://via.placeholder.com/1500x100/00FF00/FFFFFF?text=Turnier+erfolgreich+abgeschlossen)
 
