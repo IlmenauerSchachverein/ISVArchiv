@@ -4,8 +4,8 @@ bookFlatSection: true
 title: "Ausschreibung"
 bookToc: false
 ---
+# Thueringer Schnellschach Meisterschaft 2024
 # 25. Meininger Schnellschachturnier  
-## Thüringer Schnellschacheinzelmeisterschaft 
 
 ### Wanderpokal des ESV Lok Meiningen - Ausschreibung für 2024
 
