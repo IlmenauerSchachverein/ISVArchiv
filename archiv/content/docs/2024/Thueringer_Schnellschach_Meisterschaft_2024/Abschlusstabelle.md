@@ -1,13 +1,14 @@
 ---
-weight: 7
+weight: 0
 bookFlatSection: true
-title: "Rangliste Runde 7"
+title: "Abschlusstabelle"
 bookToc: false
 ---
 
 # Thueringer Schnellschach Meisterschaft 2024
 
-## Rangliste der 7. Runde
+## Abschlusstabelle
+
 
 
 | Rang | Teilnehmer               | Titel | TWZ  | Attr. | Verein/Ort                        | Land | S | R | V | Punkte | Buchh | SoBerg |
