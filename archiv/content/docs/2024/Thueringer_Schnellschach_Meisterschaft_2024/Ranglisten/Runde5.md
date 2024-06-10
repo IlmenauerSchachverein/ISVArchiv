@@ -5,6 +5,6 @@ title: "Rangliste Runde 5"
 bookToc: false
 ---
 
-### Thueringer Schnellschach Meisterschaft 2024
+# Thueringer Schnellschach Meisterschaft 2024
 
-#### Rangliste der 5. Runde
+## Rangliste der 5. Runde

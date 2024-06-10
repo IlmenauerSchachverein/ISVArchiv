@@ -5,9 +5,9 @@ title: "Rangliste Runde 2"
 bookToc: false
 ---
 
-### Thueringer Schnellschach Meisterschaft 2024
+# Thueringer Schnellschach Meisterschaft 2024
 
-#### Rangliste der 2. Runde
+## Rangliste der 2. Runde
 
 | Rang | Teilnehmer             | Titel | TWZ  | Attr. | Verein/Ort                        | Land | S | R | V | Punkte | Buchh | SoBerg |
 |------|------------------------|-------|------|-------|-----------------------------------|------|---|---|---|--------|-------|--------|
