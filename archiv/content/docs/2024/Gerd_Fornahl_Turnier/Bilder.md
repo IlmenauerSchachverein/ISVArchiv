@@ -9,7 +9,7 @@ bookToc: false
 
 ## Download
 
-Sie können alle Bilder (und auch alle anderen Dateien) unter [https://archiv.ilmenauer-schachverein.de/docs/2024/gerd_fornahl_turnier_2024/download/](https://archiv.ilmenauer-schachverein.de/docs/2024/gerd_fornahl_turnier_2024/download/) downloaden.
+Sie können alle Bilder (und auch alle anderen Dateien) unter [https://archiv.ilmenauer-schachverein.de/docs/2024/gerd_fornahl_turnier/download/](https://archiv.ilmenauer-schachverein.de/docs/2024/gerd_fornahl_turnier/download/) downloaden.
 
 ## Bilder
 
