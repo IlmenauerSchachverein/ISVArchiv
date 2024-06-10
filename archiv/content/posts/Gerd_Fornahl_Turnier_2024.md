@@ -4,7 +4,7 @@ date: 2024-04-12
 linktitle: Gerd Fornahl Turnier 2024
 title: GFT2024
 weight: 10000
-categories: ["2024", "Turnier", "Schach", "April"
+categories: ["2024", "Turnier", "Schach", "April"]
 tags: ["Gedenkturnier", "Spaß", "Ilmenauer SV", "Blitz"]
 ---
 
