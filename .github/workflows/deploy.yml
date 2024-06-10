@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy Hugo site to Web Server
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write  # Erlaubt dem Token, auf die Inhalte des Repositories zuzugreifen
+  contents: write 
 
 jobs:
   deploy:
@@ -63,4 +63,3 @@ jobs:
         run: |
           rm -rf *.deb
           git clean -fX
-        
