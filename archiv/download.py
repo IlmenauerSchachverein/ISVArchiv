@@ -3,6 +3,8 @@ import zipfile
 from datetime import datetime
 import shutil
 
+os.chdir("archiv")
+
 # Inhalt, der initial in die Datei download.md geschrieben werden soll
 initial_content = """---
 weight: 1
