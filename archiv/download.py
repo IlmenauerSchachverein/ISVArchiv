@@ -1,7 +1,5 @@
 import os
-import zipfile
 from datetime import datetime
-import shutil
 
 # Funktion, um das aktuelle Verzeichnis zu überprüfen
 def print_current_directory():
@@ -20,7 +18,10 @@ bookToc: false
 """
 
 # Zusätzlicher Inhalt, der in die Datei download.md geschrieben werden soll
-additional_content = """\n\n\n\n# Ilmenauer SV - Archiv
+additional_content = """
+
+
+# Ilmenauer SV - Archiv
 
 ## Downloads
 
@@ -48,27 +49,6 @@ with open(file_path, 'w') as file:
 
 print(f"Inhalt erfolgreich in {file_path} geschrieben.")
 
-# Funktion zum Erstellen eines ZIP-Archivs aus einem Ordner
-def zip_folder(folder_name, zip_name):
-    zip_path = os.path.abspath(zip_name)
-    with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
-        for root, dirs, files in os.walk(folder_name):
-            for file in files:
-                file_path = os.path.join(root, file)
-                arcname = os.path.relpath(file_path, start=folder_name)
-                zipf.write(file_path, arcname)
-    print(f"Ordner '{folder_name}' erfolgreich in '{zip_path}' umgewandelt.")
-    shutil.move(zip_path, os.path.join('static', zip_name))
-    print(f"Archiv '{zip_name}' erfolgreich in den Ordner 'static' verschoben.")
-
-# Ordner, die in ZIP-Archive umgewandelt werden sollen
-folders_to_zip = ['public', 'static']
-zip_filenames = ['ISVArchiv_public.zip', 'ISVArchiv_static.zip']
-
-# Erstelle ZIP-Archive für die angegebenen Ordner und verschiebe sie in den Ordner 'static'
-for folder, zip_name in zip(folders_to_zip, zip_filenames):
-    zip_folder(folder, zip_name)
-
 # Funktion zum Abrufen der Dateiinformationen
 def get_file_info(file_path):
     file_info = os.stat(file_path)
@@ -93,9 +73,10 @@ print("Tabelleninhalt:")
 print(''.join(table_rows))
 
 # Füge zusätzlichen Inhalt und Tabelleninhalt in die Datei download.md ein
-with open(file_path, 'a') as file:
-    file.write(additional_content)
-    file.writelines(table_rows)
-
-print(f"Zusätzlicher Inhalt und Dateiinformationen erfolgreich in {file_path} eingefügt.")
-    
+try:
+    with open(file_path, 'a') as file:
+        file.write(additional_content)
+        file.writelines(table_rows)
+    print(f"Zusätzlicher Inhalt und Dateiinformationen erfolgreich in {file_path} eingefügt.")
+except Exception as e:
+    print(f"Fehler beim Schreiben in die Datei {file_path}: {e}")
