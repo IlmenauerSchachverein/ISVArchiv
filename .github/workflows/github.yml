@@ -57,7 +57,7 @@ jobs:
           dos2unix *.py
           python3 download.py  
       - name: print download.md
-        run: cat content/docs/download.md                  
+        run: cat archiv/content/docs/download.md                   
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
