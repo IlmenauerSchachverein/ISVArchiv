@@ -20,7 +20,10 @@ bookToc: false
 """
 
 # Zusätzlicher Inhalt, der in die Datei download.md geschrieben werden soll
-additional_content = """\n\n\n\n# Ilmenauer SV - Archiv
+additional_content = """
+
+
+# Ilmenauer SV - Archiv
 
 ## Downloads
 
@@ -33,7 +36,7 @@ additional_content = """\n\n\n\n# Ilmenauer SV - Archiv
 """
 
 # Datei-Pfad zur download.md Datei
-file_path = os.path.abspath('content/docs/download.md')
+file_path = os.path.abspath('archiv/content/docs/download.md')
 
 # Sicherstellen, dass das Verzeichnis existiert
 os.makedirs(os.path.dirname(file_path), exist_ok=True)
@@ -50,7 +53,7 @@ print(f"Inhalt erfolgreich in {file_path} geschrieben.")
 
 # Funktion zum Erstellen eines ZIP-Archivs aus einem Ordner
 def zip_folder(folder_name, zip_name):
-    zip_path = os.path.abspath(os.path.join('static', zip_name))
+    zip_path = os.path.abspath(os.path.join('archiv/static', zip_name))
     with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for root, dirs, files in os.walk(folder_name):
             for file in files:
@@ -58,14 +61,14 @@ def zip_folder(folder_name, zip_name):
                 arcname = os.path.relpath(file_path, start=folder_name)
                 zipf.write(file_path, arcname)
     print(f"Ordner '{folder_name}' erfolgreich in '{zip_path}' umgewandelt.")
-    shutil.move(zip_path, os.path.join('static', zip_name))
-    print(f"Archiv '{zip_name}' erfolgreich in den Ordner 'static' verschoben.")
+    shutil.move(zip_path, os.path.join('archiv/static', zip_name))
+    print(f"Archiv '{zip_name}' erfolgreich in den Ordner 'archiv/static' verschoben.")
 
 # Ordner, die in ZIP-Archive umgewandelt werden sollen
-folders_to_zip = ['public', 'static']
+folders_to_zip = ['archiv/public', 'archiv/static']
 zip_filenames = ['ISVArchiv_public.zip', 'ISVArchiv_static.zip']
 
-# Erstelle ZIP-Archive für die angegebenen Ordner und verschiebe sie in den Ordner 'static'
+# Erstelle ZIP-Archive für die angegebenen Ordner und verschiebe sie in den Ordner 'archiv/static'
 for folder, zip_name in zip(folders_to_zip, zip_filenames):
     zip_folder(folder, zip_name)
 
@@ -76,13 +79,13 @@ def get_file_info(file_path):
     last_edit = datetime.fromtimestamp(file_info.st_mtime).strftime('%Y-%m-%d %H:%M:%S')
     file_name = os.path.basename(file_path)
     file_type = 'Ordner' if os.path.isdir(file_path) else 'Datei'
-    relative_path = os.path.relpath(file_path, start='static')
+    relative_path = os.path.relpath(file_path, start='archiv/static')
     download_link = f"[Download](static/{relative_path})"
     return file_name, last_edit, file_size_mb, file_type, download_link
 
-# Füge Tabelleninhalt mit Dateiinformationen aus dem Ordner 'static' hinzu
+# Füge Tabelleninhalt mit Dateiinformationen aus dem Ordner 'archiv/static' hinzu
 table_rows = []
-for root, dirs, files in os.walk('static'):
+for root, dirs, files in os.walk('archiv/static'):
     for file in files:
         file_path = os.path.join(root, file)
         file_name, last_edit, file_size_mb, file_type, download_link = get_file_info(file_path)
