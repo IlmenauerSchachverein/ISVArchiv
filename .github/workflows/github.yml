@@ -51,12 +51,10 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Change Folder
-        run: |
-          cd archiv
       - name: Build downloads
         run: |
-          pwd
+          cd archiv
+          dos2unix *.py
           python3 download.py                    
       - name: Setup Pages
         id: pages
