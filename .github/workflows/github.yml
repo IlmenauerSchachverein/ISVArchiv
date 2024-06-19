@@ -56,7 +56,7 @@ jobs:
           cd archiv
       - name: Build downloads
         run: |
-          dos2unix download.py
+          pwd
           python3 download.py                    
       - name: Setup Pages
         id: pages
