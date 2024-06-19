@@ -3,8 +3,6 @@ import zipfile
 from datetime import datetime
 import shutil
 
-os.chdir("archiv")
-
 # Inhalt, der initial in die Datei download.md geschrieben werden soll
 initial_content = """---
 weight: 1
@@ -29,7 +27,10 @@ additional_content = """\n\n\n\n# Ilmenauer SV - Archiv
 """
 
 # Datei-Pfad zur download.md Datei
-file_path = 'content/docs/download.md'
+file_path = 'archiv/content/docs/download.md'
+
+# Sicherstellen, dass das Verzeichnis existiert
+os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
 # Öffne die Datei im Schreibmodus, leere den Inhalt und schreibe den neuen Inhalt hinein
 # Falls die Datei nicht existiert, wird sie automatisch erstellt
