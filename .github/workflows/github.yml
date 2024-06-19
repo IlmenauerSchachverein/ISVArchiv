@@ -53,10 +53,10 @@ jobs:
           fetch-depth: 0
       - name: Change Folder
         run: |
-          dos2unix *.py
           cd archiv
       - name: Build downloads
         run: |
+          dos2unix download.py
           python3 download.py                    
       - name: Setup Pages
         id: pages
