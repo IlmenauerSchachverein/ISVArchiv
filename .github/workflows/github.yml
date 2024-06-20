@@ -81,6 +81,8 @@ jobs:
         with:
           path: archiv/public
           name: github-pages
+      - name: Deploy URL
+        run: echo "https://ilmenauerschachverein.github.io/ISVArchiv/"
 
   # Deployment job
   deploy:
