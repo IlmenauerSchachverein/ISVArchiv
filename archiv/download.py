@@ -81,6 +81,7 @@ final_content = initial_content + additional_content + ''.join(table_rows)
 print("Finaler Inhalt:")
 print(final_content)
 
+file_path = "archiv/content/docs/download.md"
 # Schreibe den kombinierten Inhalt in die Datei download.md
 try:
     with open(file_path, 'w') as file:
