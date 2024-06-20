@@ -25,7 +25,6 @@ def create_zip_archives_for_static():
             zip_path = f"{dir_path}.zip"
             zip_folder(dir_path, zip_path)
             print(f"Archiv '{zip_path}' erfolgreich erstellt.")
-        break
 
 create_zip_archives_for_static()
 
