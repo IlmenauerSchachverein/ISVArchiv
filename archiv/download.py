@@ -82,7 +82,7 @@ print("Finaler Inhalt:")
 print(final_content)
 
 # Schreibe den kombinierten Inhalt in die Datei download.md
-file_path ="archiv/content/download.md"
+file_path ="archiv/content/docs/download.md"
 try:
     with open(file_path, 'w') as file:
         file.write(final_content)
