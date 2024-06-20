@@ -45,7 +45,7 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Install dos2unix
-        run: sudo apt install dos2unix    
+        run: sudo apt -get install dos2unix    
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -53,9 +53,8 @@ jobs:
           fetch-depth: 0
       - name: Build downloads
         run: |
-          cd archiv
-          dos2unix *.py
-          python3 download.py  
+          dos2unix archiv/*.py
+          python3 archiv/download.py  
       - name: print download.md
         run: cat archiv/content/docs/download.md                   
       - name: Setup Pages
