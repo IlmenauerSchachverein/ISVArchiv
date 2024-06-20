@@ -40,7 +40,7 @@ def get_file_info(file_path):
     file_name = os.path.basename(file_path)
     file_extension = os.path.splitext(file_path)[1] if not os.path.isdir(file_path) else ""
     relative_path = os.path.relpath(file_path, start=os.path.join('archiv', 'static')).replace(os.sep, '/')
-    download_link = f"[Download]({relative_path})"
+    download_link = f"[Download](/{relative_path})"
     return file_name, last_edit, file_size_mb, file_extension, download_link
 
 def create_table_for_folder(folder_path, level=2):
