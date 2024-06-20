@@ -1,12 +1,33 @@
 import os
 import hashlib
 from datetime import datetime
+import zipfile
 
 def print_current_directory():
     current_directory = os.getcwd()
     print(f"Aktuelles Verzeichnis: {current_directory}")
 
 print_current_directory()
+
+def zip_folder(folder_path, zip_path):
+    with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
+        for root, _, files in os.walk(folder_path):
+            for file in files:
+                file_path = os.path.join(root, file)
+                arcname = os.path.relpath(file_path, start=folder_path)
+                zipf.write(file_path, arcname)
+
+def create_zip_archives_for_static():
+    static_path = os.path.abspath(os.path.join('archiv', 'static'))
+    for root, dirs, _ in os.walk(static_path):
+        for dir in dirs:
+            dir_path = os.path.join(root, dir)
+            zip_path = f"{dir_path}.zip"
+            zip_folder(dir_path, zip_path)
+            print(f"Archiv '{zip_path}' erfolgreich erstellt.")
+        break
+
+create_zip_archives_for_static()
 
 initial_content = """---
 weight: 1
