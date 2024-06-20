@@ -46,7 +46,10 @@ jobs:
       - name: Download Extension
         run: |
           dos2unix archiv/*.py
+          python3 create_download_init.py
           python3 archiv/download.py
+          mkdir -p archiv/docs/content/Download
+          mv archiv/docs/content/download.md archiv/docs/content/Downloads/download.md 
 
       - name: Build Hugo Site
         run: |
