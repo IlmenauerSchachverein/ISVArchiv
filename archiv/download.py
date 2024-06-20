@@ -25,12 +25,6 @@ additional_content = """
 
 ## Downloads
 
-# Gerd Fornahl Turnier 2024
-
-## Downloads
-
-| Name                                      | Last Edit      | Größe (MB) | Datei Typ | Download                                       |
-|-------------------------------------------|----------------|------------|-----------|------------------------------------------------|
 """
 
 # Debug-Ausgabe des zusätzlichen Inhalts
@@ -57,31 +51,40 @@ def get_file_info(file_path):
     download_link = f"[Download]({relative_path})"
     return file_name, last_edit, file_size_mb, file_type, download_link
 
-# Erstelle Tabelleninhalt mit Dateiinformationen aus dem Ordner 'archiv/static'
-table_rows = []
+# Funktion zum Erstellen einer Tabelle für einen Ordner
+def create_table_for_folder(folder_path, level=2):
+    header = f"{'#' * level} {os.path.basename(folder_path)}\n\n"
+    table_header = "| Name | Last Edit | Größe (MB) | Datei Typ | Download |\n|-------------------------------------------|----------------|------------|-----------|------------------------------------------------|\n"
+    table_rows = []
+
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            file_path = os.path.join(root, file)
+            file_name, last_edit, file_size_mb, file_type, download_link = get_file_info(file_path)
+            table_rows.append(f"| {file_name} | {last_edit} | {file_size_mb} | {file_type} | {download_link} |\n")
+        
+        # Durchlaufe auch alle Unterverzeichnisse
+        for subdir in dirs:
+            subdir_path = os.path.join(root, subdir)
+            table_rows.append(create_table_for_folder(subdir_path, level=level+1))
+        
+        break
+
+    return header + table_header + ''.join(table_rows) + "\n"
+
+# Hauptverzeichnis 'static'
 static_path = os.path.abspath(os.path.join('archiv', 'static'))
 
-# Debug-Ausgabe des Pfads zum static-Ordner
-print(f"Durchlaufe den Ordner: {static_path}")
+# Initialer finaler Inhalt
+final_content = initial_content + additional_content
 
-for root, dirs, files in os.walk(static_path):
-    for file in files:
-        file_path = os.path.join(root, file)
-        file_name, last_edit, file_size_mb, file_type, download_link = get_file_info(file_path)
-        table_rows.append(f"| {file_name} | {last_edit} | {file_size_mb} | {file_type} | {download_link} |\n")
-
-# Debug-Ausgabe der Tabellenzeilen
-print("Tabelleninhalt:")
-print(''.join(table_rows))
-
-# Kombiniere initialen Inhalt, zusätzlichen Inhalt und Tabelleninhalt
-final_content = initial_content + additional_content + ''.join(table_rows)
+# Erstelle Tabellen für das Hauptverzeichnis 'static' und alle Unterverzeichnisse
+final_content += create_table_for_folder(static_path)
 
 # Debug-Ausgabe des finalen Inhalts
 print("Finaler Inhalt:")
 print(final_content)
 
-file_path = "archiv/content/docs/download.md"
 # Schreibe den kombinierten Inhalt in die Datei download.md
 try:
     with open(file_path, 'w') as file:
