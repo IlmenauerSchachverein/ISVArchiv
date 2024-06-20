@@ -53,8 +53,8 @@ def get_file_info(file_path):
     last_edit = datetime.fromtimestamp(file_info.st_mtime).strftime('%Y-%m-%d %H:%M:%S')
     file_name = os.path.basename(file_path)
     file_type = 'Ordner' if os.path.isdir(file_path) else 'Datei'
-    relative_path = os.path.relpath(file_path, start=os.path.join('archiv', 'static'))
-    download_link = f"[Download](static/{relative_path})"
+    relative_path = os.path.relpath(file_path, start=os.path.join('archiv', 'static')).replace(os.sep, '/')
+    download_link = f"[Download]({relative_path})"
     return file_name, last_edit, file_size_mb, file_type, download_link
 
 # Erstelle Tabelleninhalt mit Dateiinformationen aus dem Ordner 'archiv/static'
@@ -82,7 +82,6 @@ print("Finaler Inhalt:")
 print(final_content)
 
 # Schreibe den kombinierten Inhalt in die Datei download.md
-file_path ="archiv/content/docs/download.md"
 try:
     with open(file_path, 'w') as file:
         file.write(final_content)
