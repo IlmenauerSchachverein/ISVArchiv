@@ -1,4 +1,5 @@
 import os
+import hashlib
 from datetime import datetime
 
 def print_current_directory():
@@ -40,19 +41,31 @@ def get_file_info(file_path):
     file_name = os.path.basename(file_path)
     file_extension = os.path.splitext(file_path)[1] if not os.path.isdir(file_path) else ""
     relative_path = os.path.relpath(file_path, start=os.path.join('archiv', 'static')).replace(os.sep, '/')
-    download_link = f"[Download](/{relative_path})"
-    return file_name, last_edit, file_size_mb, file_extension, download_link
+    download_link = f"[Download](/static/{relative_path})"
+    sha256_hash = get_sha256(file_path)
+    return file_name, last_edit, file_size_mb, file_extension, download_link, sha256_hash
+
+def get_sha256(file_path):
+    sha256 = hashlib.sha256()
+    try:
+        with open(file_path, 'rb') as f:
+            for chunk in iter(lambda: f.read(4096), b""):
+                sha256.update(chunk)
+    except Exception as e:
+        print(f"Fehler beim Berechnen des SHA256-Hashwerts für {file_path}: {e}")
+        return ""
+    return sha256.hexdigest()
 
 def create_table_for_folder(folder_path, level=2):
     header = f"{'#' * level} {os.path.basename(folder_path)}\n\n"
-    table_header = "| Name | Last Edit | Größe (MB) | Dateityp | Download |\n|-------------------------------------------|----------------|------------|-----------|------------------------------------------------|\n"
+    table_header = "| Name | Last Edit | Größe (MB) | Dateityp | Download | SHA256 |\n|-------------------------------------------|----------------|------------|-----------|------------------------------------------------|------------------------------------------------|\n"
     table_rows = []
 
     for root, dirs, files in os.walk(folder_path):
         for file in files:
             file_path = os.path.join(root, file)
-            file_name, last_edit, file_size_mb, file_extension, download_link = get_file_info(file_path)
-            table_rows.append(f"| {file_name} | {last_edit} | {file_size_mb} | {file_extension} | {download_link} |\n")
+            file_name, last_edit, file_size_mb, file_extension, download_link, sha256_hash = get_file_info(file_path)
+            table_rows.append(f"| {file_name} | {last_edit} | {file_size_mb} | {file_extension} | {download_link} | {sha256_hash} |\n")
         
         for subdir in dirs:
             subdir_path = os.path.join(root, subdir)
@@ -77,3 +90,16 @@ try:
     print(f"Inhalt erfolgreich in {file_path} geschrieben.")
 except Exception as e:
     print(f"Fehler beim Schreiben in die Datei {file_path}: {e}")
+
+# Erstellen der Datei _init.md im Ordner archiv/docs/content/Downloads
+init_file_path = os.path.abspath(os.path.join('archiv', 'docs', 'content', 'Downloads', '_init.md'))
+init_content = """# Downloads
+"""
+
+try:
+    os.makedirs(os.path.dirname(init_file_path), exist_ok=True)
+    with open(init_file_path, 'w') as file:
+        file.write(init_content)
+    print(f"Datei erfolgreich erstellt: {init_file_path}")
+except Exception as e:
+    print(f"Fehler beim Erstellen der Datei {init_file_path}: {e}")
