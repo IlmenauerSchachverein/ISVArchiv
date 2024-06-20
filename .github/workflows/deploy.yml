@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write 
+  contents: write
 
 concurrency:
   group: deploy-${{ github.ref }}
@@ -20,9 +20,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.22'
+
       - name: Set up dependencies
         run: |
-          sudo apt-get install -y wget curl sshpass screenfetch
+          sudo apt-get install -y wget curl sshpass screenfetch dos2unix
 
       - name: Install Hugo
         run: |
@@ -32,6 +42,11 @@ jobs:
 
       - name: Verify Hugo Installation
         run: hugo version
+      
+      - name: Download Extension
+        run: |
+          dos2unix archiv/*.py
+          python3 archiv/download.py
 
       - name: Build Hugo Site
         run: |
