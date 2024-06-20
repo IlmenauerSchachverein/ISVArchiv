@@ -1,4 +1,4 @@
-file_path = 'archiv/content/docs/Downloads/_init.md'
+file_path = '/home/runner/work/ISVArchiv/ISVArchiv/archiv/content/docs/Download/_init.md'
 
 content = """# Downloads
 """
