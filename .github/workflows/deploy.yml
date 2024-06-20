@@ -49,7 +49,7 @@ jobs:
           python3 archiv/create_download_init.py
           python3 archiv/download.py
           mkdir -p archiv/content/docs/Download
-          mv /archiv/content/docs/download.md /archiv/content/docs/Downloads/download.md 
+          mv archiv/content/docs/download.md archiv/content/docs/Downloads/download.md 
 
       - name: Build Hugo Site
         run: |
