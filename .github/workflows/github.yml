@@ -45,7 +45,7 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Install dos2unix
-        run: sudo apt -get install dos2unix    
+        run: sudo apt-get install dos2unix    
       - name: Checkout
         uses: actions/checkout@v4
         with:
