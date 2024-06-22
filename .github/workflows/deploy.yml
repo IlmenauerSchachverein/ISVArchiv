@@ -43,6 +43,10 @@ jobs:
       - name: Verify Hugo Installation
         run: hugo version
       
+      - name: Make TOML for GitHub
+        run: |
+          sed -i '0,/baseURL = "http:\/\/archiv.ilmenauer-schachverein.de"/s//baseURL = "https:\/\/ilmenauerschachverein.github.io\/ISVArchiv\/"/' archiv/hugo.toml
+
       - name: Download Extension
         run: |
           dos2unix archiv/*.py
