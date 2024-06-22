@@ -37,7 +37,7 @@ jobs:
       - name: Set up Python 3.x
         uses: actions/setup-python@v5
         with:
-         python-version: '3.x'
+          python-version: "3.x"
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
@@ -45,18 +45,22 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Install dos2unix
-        run: sudo apt-get install dos2unix    
+        run: sudo apt-get install dos2unix
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Make TOML for GitHub
+        run: |
+          sed -i '0,/baseURL = "http:\/\/archiv.ilmenauer-schachverein.de"/s//baseURL = "https:\/\/ilmenauerschachverein.github.io\/ISVArchiv\/"/' archiv/hugo.toml
+          find archiv -type f -name "*.md" -exec sed -i 's|wnload](\/|wnload](\/ISVArchiv\/|g' {} +
       - name: Build downloads
         run: |
           dos2unix archiv/*.py
-          python3 archiv/download.py  
+          python3 archiv/download.py
       - name: print download.md
-        run: cat archiv/content/docs/download.md                   
+        run: cat archiv/content/docs/download.md
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

@@ -42,11 +42,6 @@ jobs:
 
       - name: Verify Hugo Installation
         run: hugo version
-      
-      - name: Make TOML for GitHub
-        run: |
-          sed -i '0,/baseURL = "http:\/\/archiv.ilmenauer-schachverein.de"/s//baseURL = "https:\/\/ilmenauerschachverein.github.io\/ISVArchiv\/"/' archiv/hugo.toml
-          find archiv -type f -name "*.md" -exec sed -i 's|wnload](\/|wnload](\/ISVArchiv\/|g' {} +
 
       - name: Download Extension
         run: |
